@@ -1,0 +1,86 @@
+.loginContainer {
+  min-height: 100vh;
+
+  background-size: cover;
+  background-image: url('https://res.cloudinary.com/dsxljhpge/image/upload/v1688030682/netfilx_1_aw9lh4.png');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logincard {
+  width: 456px;
+
+  height: 420px;
+  background-color: #0c0b10;
+  opacity: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.topBar {
+  width: 100%;
+  background-color: white;
+  margin-top: 50px;
+  background-color: transparent;
+  margin-left: 165px;
+}
+
+.login-center {
+  width: 70%;
+
+  margin-top: 80px;
+}
+
+.login {
+  text-align: center;
+  color: white;
+}
+
+.loginbutton {
+  width: 100%;
+  margin-top: 40px;
+  background-color: #e50914;
+  border: none;
+}
+
+.inputy {
+  width: 100%;
+  background-color: #333333;
+  border: none;
+  color: white;
+}
+
+.passd {
+  margin-top: 15px;
+}
+
+.labeling {
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .loginContainer {
+    background-image: none;
+    background-color: #0c0b10;
+    min-width: 360px;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logincard {
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .logincard {
+    margin-top: 0px;
+  }
+}
+
+.error {
+  color: red;
+}

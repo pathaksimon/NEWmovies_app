@@ -1,0 +1,111 @@
+.headinger {
+  background-color: rgba(0, 0, 0, 0.5);
+
+  min-height: 103px;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.firsthead {
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-between;
+}
+
+.headerbox1 {
+  width: 30%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+
+  margin-left: 197px;
+}
+
+.headerbox21 {
+  width: 20%;
+
+  margin-right: 197px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.popup-content {
+  position: fixed;
+  background-color: red;
+
+  min-width: 1440px;
+  background-size: cover;
+}
+
+.searching12 {
+  margin-left: 10%;
+  position: fixed;
+}
+
+.profile {
+  display: block;
+  background-color: transparent;
+  border: none;
+}
+
+.clickbutton {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+
+.tophead12 {
+  color: white;
+}
+
+.notdisplayhead {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .headinger {
+    min-width: 360px;
+    min-height: 75px;
+  }
+
+  .head12 {
+    color: white;
+  }
+
+  .headerbox1 {
+    margin-left: 30px;
+  }
+
+  .headerbox21 {
+    margin-right: 30px;
+  }
+  .moviesTitle {
+    height: 27px;
+    width: 100px;
+  }
+
+  .profile {
+    display: none;
+  }
+
+  .clickbutton {
+    display: block;
+  }
+  .tophead12 {
+    display: none;
+  }
+  .notdisplayhead {
+    display: none;
+  }
+  .bottomhead {
+    display: block;
+    display: flex;
+    justify-content: space-around;
+  }
+}
