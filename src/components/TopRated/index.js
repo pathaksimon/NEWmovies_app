@@ -13,7 +13,7 @@ const ReactSlick1 = props => {
   return (
     <Link to={`/movies/${id}`}>
       <li className="lista">
-        <img src={posterPath} className="imageoflist" alt={title} />
+        <img src={posterPath} className="imageoflist " alt={title} />
       </li>
     </Link>
   )

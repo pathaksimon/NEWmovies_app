@@ -60,7 +60,10 @@ class Login extends Component {
     return (
       <div className="loginContainer">
         <div className="topBar">
-          <img src="https://res.cloudinary.com/dsxljhpge/image/upload/v1688030727/Group_7399_oapuu0.png" />
+          <img
+            src="https://res.cloudinary.com/dsxljhpge/image/upload/v1688030727/Group_7399_oapuu0.png"
+            className="moviesbar"
+          />
         </div>
         <div className="logincard">
           <div className="login-center">

@@ -319,6 +319,7 @@ class Home extends Component {
           </div>
           <div className="middleSlider">
             <h1 className="headoftrends">Top rated</h1>
+
             <TopRated />
           </div>
           <div className="secondSlider">

@@ -1,6 +1,6 @@
 .logout {
   min-height: 1356px;
-  min-width: 1440px;
+  width: 100%;
   background-size: cover;
   background-color: #131313;
 }
@@ -16,7 +16,7 @@
 
 .logoutdetails {
   width: 75%;
-  margin-left: 170px;
+  margin-left: 10%;
 }
 
 .hori {
@@ -33,10 +33,6 @@
 
 @media screen and (max-width: 576px) {
   .logout {
-    min-width: 360px;
     min-height: 640px;
-  }
-  .logoutdetails {
-    margin-left: 32px;
   }
 }

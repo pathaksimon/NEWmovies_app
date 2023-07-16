@@ -1,19 +1,19 @@
 .search-container {
-  min-height: 1024px;
-  min-width: 1440px;
+  min-height: 1000vh;
+  width: 100%;
   background-color: #181818;
 }
 
 .searchHeader {
-  min-width: 1440px;
+  width: 100%;
   min-height: 103px;
   display: flex;
   justify-content: space-between;
 }
 
 .headerfirst {
-  margin-left: 197px;
-  width: 30%;
+  margin-left: 10%;
+  width: 40%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,7 @@
 }
 
 .headersecond {
-  margin-right: 197px;
+  margin-right: 10%;
   width: 30%;
   display: flex;
   align-items: center;
@@ -33,6 +33,10 @@
   width: 45%;
 
   display: flex;
+}
+
+.movies-icon {
+  width: 80%;
 }
 
 .inputy1 {
@@ -80,24 +84,22 @@
 
 .tophead {
   color: white;
-  underline: none;
+  text-decoration: none;
 }
 
-@media screen and (max-width: 576px) {
+.searchofbutton {
+  background-color: grey;
+  border: none;
+}
+
+@media screen and (max-width: 776px) {
   .search-container {
-    max-height: 640px;
-    min-width: 360px;
   }
   .searchHeader {
-    min-width: 360px;
+    width: 100%;
     min-height: 75px;
   }
-  .headerfirst {
-    margin-left: 30px;
-  }
-  .headersecond {
-    margin-right: 30px;
-  }
+
   .movies-icon {
     width: 100px;
     height: 27px;

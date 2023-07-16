@@ -11,7 +11,7 @@ const MOVIES = props => {
   const {first} = props
   const {posterPath, id} = first
   return (
-    <Link to={`/blogs/${id}`}>
+    <Link to={`/movies/${id}`}>
       <li className="lista12">
         <img src={posterPath} className="searchedimage" />
       </li>
@@ -149,7 +149,11 @@ class Search extends Component {
                 type="search"
                 className="inputy1"
               />
-              <button testid="searchButton" onClick={this.clicking}>
+              <button
+                className="searchofbutton"
+                testid="searchButton"
+                onClick={this.clicking}
+              >
                 <HiOutlineSearch size={15} />
               </button>
             </div>

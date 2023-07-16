@@ -15,20 +15,20 @@
 }
 
 .headerbox1 {
-  width: 30%;
+  width: 40%;
 
   display: flex;
   align-items: center;
   justify-content: center;
   justify-content: space-between;
 
-  margin-left: 197px;
+  margin-left: 10%;
 }
 
 .headerbox21 {
   width: 20%;
 
-  margin-right: 197px;
+  margin-right: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,20 +62,35 @@
 
 .tophead12 {
   color: white;
+  text-decoration: none;
+}
+
+.bottomhead {
+  display: none;
 }
 
 .notdisplayhead {
   display: none;
 }
 
-@media screen and (max-width: 576px) {
+.searchbutton {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.underline {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 776px) {
   .headinger {
-    min-width: 360px;
     min-height: 75px;
   }
 
   .head12 {
     color: white;
+    text-decoration: none;
   }
 
   .headerbox1 {

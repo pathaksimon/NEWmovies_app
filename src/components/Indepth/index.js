@@ -136,7 +136,7 @@ class Indepth extends Component {
           <div className="descriptioncard">
             <h1>{title}</h1>
             <p>{overview}</p>
-            <Link to={`/blogs/${id}`}>
+            <Link to={`/movies/${id}`}>
               <button className="playbutton">Play</button>
             </Link>
           </div>

@@ -1,6 +1,6 @@
 .IndepthContainer {
   min-height: 100vh;
-  min-width: 1440px;
+  width: 100%;
   background-size: cover;
   background-color: #131313;
   display: flex;
@@ -16,7 +16,7 @@
 }
 
 .Indepthtopbackground {
-  width: 1440px;
+  width: 100%;
   min-height: 750px;
   background-size: 100% 100%;
   background-color: aqua;
@@ -26,7 +26,7 @@
   width: 80%;
   min-height: 200px;
 
-  margin-left: 165px;
+  margin-left: 1%;
   display: flex;
 
   justify-content: space-between;
@@ -37,7 +37,7 @@
 .bottomimagesContainer {
   width: 80%;
 
-  margin-left: 165px;
+  margin-left: 1%;
   padding-left: 0px;
   display: flex;
   flex-wrap: wrap;
@@ -78,7 +78,6 @@
 @media screen and (max-width: 576px) {
   .IndepthContainer {
     min-height: 1000px;
-    min-width: 360px;
   }
   .Indepthtopbackground {
     width: 100%;
@@ -93,11 +92,9 @@
     max-height: 70px;
   }
   .bottomimagesContainer {
-    margin-left: 32px;
     padding-left: 0px;
   }
   .Indepthsecondcard {
-    margin-left: 32px;
     flex-wrap: wrap;
   }
 }

@@ -1,7 +1,8 @@
 .loginContainer {
   min-height: 100vh;
-
+  min-width: 100%;
   background-size: cover;
+  margin: 0px;
   background-image: url('https://res.cloudinary.com/dsxljhpge/image/upload/v1688030682/netfilx_1_aw9lh4.png');
   display: flex;
   align-items: center;
@@ -19,12 +20,15 @@
   justify-content: center;
 }
 
+.moviesbar {
+  width: 20%;
+  margin-left: 8%;
+}
+
 .topBar {
   width: 100%;
-  background-color: white;
-  margin-top: 50px;
   background-color: transparent;
-  margin-left: 165px;
+  margin-top: 50px;
 }
 
 .login-center {
@@ -64,8 +68,7 @@
   .loginContainer {
     background-image: none;
     background-color: #0c0b10;
-    min-width: 360px;
-    max-height: 100vh;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,6 +81,10 @@
 
   .logincard {
     margin-top: 0px;
+  }
+
+  .moviesbar {
+    margin-left: 13%;
   }
 }
 

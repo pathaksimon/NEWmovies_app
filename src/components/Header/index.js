@@ -41,25 +41,25 @@ class Header extends Component {
       <div className="headinger">
         <div className="firsthead">
           <div className="headerbox1">
-            <Link to="/">
+            <Link className="underline" to="/">
               <img
                 src="https://res.cloudinary.com/dsxljhpge/image/upload/v1688030727/Group_7399_oapuu0.png"
                 className="moviesTitle"
                 alt="website logo"
               />
             </Link>
-            <Link to="/">
+            <Link className="underline" to="/">
               <p className="tophead12">Home</p>
             </Link>
-            <Link to="/popular">
+            <Link className="underline" to="/popular">
               <p className="tophead12">Popular</p>
             </Link>
           </div>
 
           <div className="headerbox21">
-            <button testid="searchButton">
-              <Link to="/search">
-                <HiOutlineSearch size={15} />
+            <button className="searchbutton" testid="searchButton">
+              <Link className="underline" to="/search">
+                <HiOutlineSearch size={15} color="white" />
               </Link>
             </button>
 
